@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Appointment</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+.form-control{
+border:none;
+}
+.box1 a:hover{
+color:black;
+}
+fa{
+}
+.clearfix a{
+color:#fff;
+}
+.navbar a:hover {
+  background:#f8bf59;
+  color:black;
+}
+
+</style>
+<body>
+<div class="container-fluid bg-dark text-light">
+	<div class="row p-2">
+		<div class="col-md-6">
+			<i class="fa fa-envelope p-1" aria-hidden="true"style="color:#D44638;"></i>ChiragPetCare@gmail.com            <i class="fa fa-phone p-1" aria-hidden="true" style="color:#00acee;"></i>9837148929<i class="fa fa-phone p-1" 	aria-hidden="true" style="color:#00acee;"></i>9219738232
+		</div>
+		<div class="col-md-6 col-sm-12x center">
+			<div class="clearfix">
+				<span class="float-right text-light">
+					<a href="https://www.facebook.com/profile.php?id=100024387583057"><i class="fa fa-facebook p-2 pl-3 ml-1" aria-hidden="true" style="background:#3b5998; color:#fff;"></i></a>
+					<a href="https://wa.me/917037989413"><i class="fa fa-whatsapp p-2  ml-1" aria-hidden="true" style="background:#25D366;"></i></a>
+					<a href="https://www.instagram.com/luckysingh6752/"><i class="fa fa-instagram p-2 pl-2 ml-1" aria-hidden="true" style="background:#3f729b"></i></a>
+					<a href="#"><i class="fa fa-twitter p-2  ml-1" aria-hidden="true" style="background:#00acee;"></i></a>
+				</span>
+			</div>	
+		</div>
+	</div>
+</div>
+<nav class="navbar navbar-expand-md navbar-dark"  style="background-color:  #355a6b;">
+	<div class="text-light w-50">
+		<span style="color:#b1d4e5;">Chirag</span>
+			<span style="color:#4298b5">Pet Care.com</span>					
+	</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+			<div class="collapse navbar-collapse w-50 nav-a" id="collapsibleNavbar">
+				<ul class="navbar-nav p-1 pl-5" style="font-family:Georgia, 'Times New Roman', Times, serif;">
+					<li class="nav-item">
+						<a class="nav-link " href="index.html"> <span>Home</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link "  href="fetch_data.php"> About</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="servicse.html" id="navbardrop" data-toggle="dropdown">
+							Service
+						</a>
+					</li>	
+					 <li class="nav-item">
+						<a class="nav-link" href="contact.html">Contect</a>
+					 </li> 	  
+				</ul>
+			</div>  
+		</nav>
+
+<legend>
+<div class="container  w-50 p-4 mt-5" style="background-color:rgb(243, 245, 247) !important;">
+	<div class="row">
+		<div class="col-xl-12">
+		<legend><h1 class="text-center" style="color:#f8bf59"> An Appointment</h1></legend>
+		<h6 class="text-center" style="color:#f8bf59;"> it's free and hardly takes more than 30 seconds </h6>
+		<form action="myform_controller.php" method="post">
+			<div class="input-group mt-5 mb-3">
+				<div class="input-group-prepend">
+					<span class="input-group-text text-light" style="background:#355a6b;"><i class="fa fa-user-circle" aria-hidden="true"></i></span>
+				</div>
+				<input type="text" class="form-control"placeholder=" Enter Usename" name="uname" required>
+			</div>
+			<div class="input-group mb-3">
+				<div class="input-group-prepend">
+					<span class="input-group-text text-light" style="background:#355a6b;"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+				</div>
+				<input type="email" class="form-control" placeholder=" Enter email" name="email" required>
+			</div>
+			 <div class="input-group mb-3">
+				<div class="input-group-prepend">
+					<span class="input-group-text text-light" style="background:#355a6b;"><i class="fa fa-phone " aria-hidden="true"></i></span>
+				</div>
+					<input type="number" class="form-control" placeholder=" Enter Mobile No" name="password" required>
+			</div>
+			<div class="input-group mb-3">
+				<div class="input-group-prepend">
+					<span class="input-group-text text-light" style="background:#355a6b;"><i class="fa fa-lock" aria-hidden="true"></i></span>
+				</div>
+					<input type="password" class="form-control" placeholder=" password" name="cpass" required>
+			</div>
+				<div class="button w-100" style="display:flex; ">
+				<button type="submit" class="btn btn-success w-50" style="background:#355a6b;">Sine Up</button>
+				<button type="reset" class="btn btn-success ml-1 w-50" style="background:#355a6b;">Reset Form</button>
+				</div>	
+		</form>
+		</div>
+	</div>	
+</div>
+<div class="container-fluid p-1 mt-5" style="background-color:  #355a6b;">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="footer-box-1 p-4">
+					<a href="#" style="font-size:18px; color:#fefefe; font-family: Georgia, 'Times New Roman', Times, serif;"> 487 , secter-3 Avas vikas colony bodla agra ,  Agra - 282007</a> <br>		
+					<i class="fa fa-phone p-3" aria-hidden="true" style="color:#ffffff; font-size:20px;"> <span  style="font-family: Georgia, 'Times New Roman', Times, serif;">7037989413</span></i>			
+				</div>
+			</div>	
+			<div class="col-md-6 text-white">
+				<div class="footer-box ml-2 p-4" style="font-size:20px;">
+					<span style="font-family: Georgia, 'Times New Roman', Times, serif;">M - F: 8:30 am - 7:00 pm</span>  <span class="ml-3" style="font-family: Georgia, 'Times New Roman', Times, serif;">Sa: 9:00 am - 3:00 pm</span>
+					<br>
+					<a href="https://wa.me/917037989413"><i class="fa fa-whatsapp p-2 " aria-hidden="true" style="background:#25D366; color:#fefefe; text-decoration:none;"></i></a>
+					<a href="https://www.instagram.com/oye.luckyy__/"><i class="fa fa-instagram p-2 ml-3 mt-4" aria-hidden="true" style="background:#c13584 ;color:#fefefe;"></i></a>
+					<a href="login.html"><button type="button" class="btn ml-5 color:white" style="background-color:#f8bf59; color:#fff;"><span> An Appointment</span></button></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
